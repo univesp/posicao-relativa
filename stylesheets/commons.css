@@ -8,7 +8,6 @@
   color: var(--roxo);
 }
 body {
-  /* font-family: Roboto; */
   box-sizing: border-box;
   overflow-x: hidden;
   font-size: 1.3rem;
@@ -144,9 +143,6 @@ div.links-paginas-grid div:nth-child(1n) {
   justify-content: center;
 }
 
-.link1:hover {
-
-}
 .img-link1-hover,
 .img-link2-hover,
 .img-link4-hover {
@@ -278,9 +274,6 @@ div.slide-content {
   justify-content: center;
   font-family: Roboto;
   font-size: 18px;
-  /* min-width: 1028px; */
-  /* height: 1000px; */
-  /* flex-shrink: 0; */
   padding: 30px;
 }
 
@@ -336,7 +329,6 @@ div.slide-content {
   line-height: normal;
 }
 
-/* div.slide .texto-slide { */
 .texto-slide {
   color: var(--preto);
   font-family: Roboto;
@@ -495,7 +487,6 @@ div.div-ld {
 }
 div.ld {
   display: flex;
-  /* flex-direction: column; */
 }
 
 .caixas-setas {
@@ -531,8 +522,6 @@ div.ld {
 div.seta-direita, .margin-arrow {
   position: relative;
   margin-right: 10px;
-  /* left: 10px;
-  top: -10px; */
 }
 
 div.ambas-setas {
@@ -545,7 +534,6 @@ div.ambas-setas {
 }
 
 div.separacao-vertical-1 {
-  /* background-color: red; */
   height: 45px;
   position: relative;
   top: -15px;
@@ -677,15 +665,30 @@ img.planos-paralelos-coincidentes {
   font-weight: 400;
   line-height: 50px; /* 227.273% */
 }
-
-.imagem {
-  background-color: red;
-  padding: 50px;
-}
-
 div.caixa8-1 {
   display: none;
   align-items: center;
   justify-content: center;
-  /* margin-top: 40px; */
+}
+img.plano-paralelo,
+.plano-paralelo-distinto,
+.retas-reversas,
+.retas-reversas_1,
+.paralelas-distintas1 {
+  margin-top: -60px!important;
+  margin-bottom: -50px!important;
+}
+
+img.paralelas-distintas_2 {
+  width: 200px!important;
+  margin-top: -60px!important;
+  margin-bottom: -50px!important;
+}
+
+.reta-e-plano-transversais {
+  align-items: center;
+  justify-content: center;
+}
+.planos-transversais-caixa {
+  cursor: none;
 }
