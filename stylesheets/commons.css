@@ -78,6 +78,11 @@ a, a:hover {
   outline: none;
   text-decoration: none;
 }
+
+mjx-container[jax="CHTML"][display="true"]{
+  display: inline !important;
+}
+
 div.div-roxa {
   display: flex;
   flex-direction: column;
