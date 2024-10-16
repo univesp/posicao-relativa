@@ -30,7 +30,7 @@ h2 {
   text-transform: none;
 }
 h3 {
-  margin: 50px auto 30px auto;
+  margin: 15px auto 15px auto;
   font-weight: 700;
   font-size: 18px;
 }
@@ -728,4 +728,21 @@ img.paralelas-distintas_2 {
 }
 .planos-transversais-caixa {
   cursor: none;
+}
+
+.img-sistema-retas {
+  width: 162.9px!important;
+  /* height: 99px; */
+  flex-shrink: 0;
+  margin-top: -50px!important;
+  margin-bottom: -50px!important;
+}
+.img-sistema-retas2 {
+  width: 167.893px!important;
+  flex-shrink: 0!important;
+  margin-top: -50px!important;
+  margin-bottom: -50px!important;
+}
+.imagem {
+  background-color: red;
 }
