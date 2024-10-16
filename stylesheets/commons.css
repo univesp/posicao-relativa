@@ -746,3 +746,11 @@ img.paralelas-distintas_2 {
 .imagem {
   background-color: red;
 }
+
+
+
+@media (max-width: 992px){
+  .container-paginas{
+    display: none;
+  }
+}
