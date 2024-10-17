@@ -64,7 +64,8 @@ p {
   display: none;
 }
 .container {
-  min-width: 73%!important;
+  min-width: 1300px;
+  /* width: min(1300px, 90vw)!important; */
   padding: 60px auto;
   background-color: var(--amarelo);
   display: flex;
@@ -593,11 +594,16 @@ div.separacao-vertical-1 {
   font-weight: 700;
   line-height: normal;
   margin: 100px;
+  width: 116px;
+  height: 74px;
+  display: flex;
+  margin: 100px auto;
 }
 .btn-voltar {
   position: relative;
   top: 550px;
 }
+
 .caixa12, .caixa10, .caixa8, .caixa6,
 .caixa4, .caixa2, .caixa0 {
   display: none;
@@ -689,6 +695,8 @@ img.planos-paralelos-coincidentes {
 }
 
 .quadro-para-praticar {
+  width: min(1028px, 90%)!important;
+  margin: auto;
   margin-top: 50px;
   padding: 70px;
   background: rgba(151, 71, 255, 0.10);
@@ -749,9 +757,9 @@ img.paralelas-distintas_2 {
 
 
 
-@media (max-width: 1200px){
+@media (max-width: 1400px){
   .container-paginas{
-    display: none;
+    /* display: none; */
   }
 
   .d-lg-none{
