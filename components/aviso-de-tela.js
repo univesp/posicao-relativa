@@ -10,7 +10,7 @@ const avisoDeTela = `<div class="container d-lg-none text-center" id="celular">
           <span style="font-family:Barlow; color:#fff; font-weight: bold;" size="10rem"><b>OPS!</b></span>
         </p>
         <p>
-          <span style="font-family:Verdana;color: #fff; font-weight: bold;" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 1200px.</span>
+          <span style="font-family:Verdana;color: #fff; font-weight: bold;" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 1300px.</span>
         </p>
       </div>
     </div>`;
